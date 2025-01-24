@@ -4,9 +4,7 @@
    [re-frame.core :as re-frame]
    [stateless-frontend-architecture.events :as events]
    [stateless-frontend-architecture.views :as views]
-   [stateless-frontend-architecture.config :as config]
-   ))
-
+   [stateless-frontend-architecture.config :as config]))
 
 (defn dev-setup []
   (when config/debug?
